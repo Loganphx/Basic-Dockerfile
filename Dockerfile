@@ -1,2 +1,3 @@
 FROM alpine:latest
-RUN echo “Hello, Captain!”
+ARG name="Chad"
+RUN echo "Hello, ${name}!"
